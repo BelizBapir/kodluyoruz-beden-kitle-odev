@@ -1,0 +1,12 @@
+.container{width: auto; height: auto; }
+.başlık{ margin: 0 0 0 480px;}
+.kilolu{ width: 200px ; height: 400px; float: left; margin: 50px 0 0 -250px;}
+.zayıf{ width: 200px; height: 400px; float: left; margin: -250px 0 0 780px ;}
+.navbar{ width: 700px; height: 400px; background-color: black; margin:10px 0 0 260px; border-radius: 60%; float: left;}
+.kitleform{ color: antiquewhite;  margin: 0 0 0 250px; padding: 120px 0 0 0;}
+.boy{ margin: 10px 0 0 0;}
+.kontrol{ margin: 5px 0 0 65px; height: 25px;}
+.endeks{ margin: 10px 0 0 0;}
+.sonuc{ margin: 10px 0 0 0;}
+.clean{ margin: 10px 0 0 0; height: 25px; margin-left: 85px;}
+.resim{ width: 500px; height: 260px; margin-left: 360px; margin-top: 10px;}

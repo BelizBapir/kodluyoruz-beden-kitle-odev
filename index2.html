@@ -1,0 +1,112 @@
+<!DOCTYPE >
+<html >
+<head>
+<title>Vücut Kitle Endeksi</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<link rel="stylesheet" href="style.css">
+<script language="JavaScript" type="text/javascript">
+
+function hesapla() {
+var kilo = document.KitleForm.kilo.value
+var boy = document.KitleForm.boy.value
+if(kilo > 0 && boy > 0){  
+var sonuc = kilo/(boy/100*boy/100)
+document.KitleForm.endeks.value = sonuc
+if(sonuc < 35){
+document.KitleForm.islemsonucu.value = "Zayıfsınız"
+}
+if(sonuc > 18.5 && sonuc < 50){
+document.KitleForm.islemsonucu.value = "Gayet Sağlıklı."
+}
+if(sonuc > 65){
+document.KitleForm.islemsonucu.value = "Şişmansınız."
+}
+}
+else{
+alert("Böyle kilo,boy olmaz tekrar dene")
+}
+}
+
+</script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="başlık">Vücut Kitle İndeksi</h3>
+        
+        
+<div class="navbar">
+    
+    <img src="kilo.png" alt="" class="kilolu">
+    <form name="KitleForm" class="kitleform">
+        Kilo(kg): <input type="text" name="kilo" size="10"  ><br />
+        Boy(cm): <input type="text" name="boy" size="10" class="boy"><br />
+        <input type="button" value="Kontrol Et" onClick="hesapla()" class="kontrol"><br />
+        Vücut Kitle Endeksiniz: <input type="text" name="endeks" size="10" class="endeks"><br/>
+        Sonuca Göre: <input type="text" name="islemsonucu" size="25" class="sonuc"><br />
+        <input type="reset" value="Temizle"  class="clean">
+        </form>
+       <img src="zayıf.png" alt="" class="zayıf">
+</div>
+<img src="indeks.jpeg" alt="" class="resim">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
